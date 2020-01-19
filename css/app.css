@@ -1,0 +1,11 @@
+a {
+    color: black;
+}
+
+#header {
+    border-top: 6px solid black;
+}
+
+hr {
+    border: 1px dotted black;
+}
