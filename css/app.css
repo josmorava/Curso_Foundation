@@ -7,5 +7,56 @@ a {
 }
 
 hr {
-    border: 1px dotted black;
+    border: 1px dotted grey;
+    margin: 10px;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.product {
+    position: relative;
+}
+
+.product .hover {
+    display: none;
+}
+
+.product:hover .normal {
+    display: none;
+}
+
+.product:hover .hover {
+    display: block;
+}
+
+.new {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.promo {
+    background-color: black;
+}
+
+.promo i {
+    float: right;
+}
+
+.promo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.product:hover .promo {
+    display: block;
 }
